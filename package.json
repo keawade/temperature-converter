@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/keawade/temperature-converter/issues"
   },
-  "homepage": "https://github.com/keawade/temperature-converter#readme"
+  "homepage": "https://github.com/keawade/temperature-converter#readme",
+  "dependencies": {
+    "webpack": "^1.13.2"
+  }
 }
