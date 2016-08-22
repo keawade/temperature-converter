@@ -33,6 +33,10 @@ Create a file called "temperature.js", which does the following:
 
 You are also welcome commit, push, and create a pull request **before** you’ve completed your solution. You can ask questions or request feedback there in your pull request. Just mention `@barberboy` in your comments to get my attention.
 
+## Install and Run
+
+ - `npm install`
+ - `npm start`
 
 ## Resources
 [Objects][Object]
