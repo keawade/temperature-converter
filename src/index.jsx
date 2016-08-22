@@ -29,12 +29,12 @@ class App extends React.Component {
     })
   }
 
-  convert(value) {
+  convert() {
     let output;
     if(this.state.convertToCelsius) {
-      output = this.toCelsius(value)
+      output = this.toCelsius(this.state.givenTemp)
     } else {
-      output = this.toFahrenheit(value)
+      output = this.toFahrenheit(this.state.givenTemp)
     }
     return Math.round(output)
   }
@@ -52,7 +52,7 @@ class App extends React.Component {
       <div>
         <input value={this.state.givenTemp} onChange={this.updateGivenTemp} />
         <button onClick={this.toggleConversion}>{this.state.toCelsius ? 'To °C' : 'To °F'}</button>
-        <p>The given temperature is {this.state.givenTemp} {this.state.toCelsius ? '°F' : '°C'}, which is {this.convert(this.state.givenTemp) } {this.state.toCelsius ? '°C' : '°F'}.</p>
+        <p>The given temperature is {this.state.givenTemp} {this.state.toCelsius ? '°F' : '°C'}, which is {this.convert} {this.state.toCelsius ? '°C' : '°F'}.</p>
       </div>
     )
   }
