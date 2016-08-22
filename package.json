@@ -1,0 +1,23 @@
+{
+  "name": "temperature-converter",
+  "version": "1.0.0",
+  "description": "Handles conversions between temperature units",
+  "main": "temperature.ts",
+  "dependencies": {
+    "typescript": "^1.8.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "tsc && node temperature.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keawade/temperature-converter.git"
+  },
+  "author": "keawade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keawade/temperature-converter/issues"
+  },
+  "homepage": "https://github.com/keawade/temperature-converter#readme"
+}
