@@ -36,7 +36,8 @@ You are also welcome commit, push, and create a pull request **before** you’ve
 ## Install and Run
 
  - `npm install`
- - `npm start`
+ - `npm run dev`
+ - Open `./src/index.html` in a browser
 
 ## Resources
 [Objects][Object]
